@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movies</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <form name="mainForm" onsubmit="return false">
+      <!-- Movie Rating -->
+      <div class="movie-info">
+        <h2 class="section-title">Rate your movies</h2>
+        <div class="movie-title">
+          <label for="movieTitle">Movie Title:</label>
+          <input name="movie-title" id="movie-title" />
+        </div>
+        <!-- <input> -->
+        <div class="movie-rating">
+          <label for="movieRating">Rating (1-5):</label>
+          <select name="movie-rating" id="movie-rating">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="submitButton">
+          <button id="addMovie">Add Movie</button>
+          <button id="showMovies">Show Movies</button>
+        </div>
+      </div>
+
+      <!-- Movie Objects -->
+      <div class="movieDisplay">
+        <h2 class="section-title">Movies with rating</h2>
+        <div id="rating-area"></div>
+      </div>
+    </form>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="movie.js"></script>
+  </body>
+</html>

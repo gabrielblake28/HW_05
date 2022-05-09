@@ -1,0 +1,43 @@
+.mainForm {
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #55bdca;
+}
+
+.movie-title {
+  margin: 5px;
+  width: 50%;
+}
+
+.movie-rating {
+  margin: 5px;
+  width: 50%;
+}
+
+.submitButton {
+  margin: 10px 5px 5px 5px;
+}
+
+.movieDisplay {
+  background-color: #55bdca;
+  margin: 20px;
+  height: 200px;
+  width: 50%;
+  border: 1px solid rgb(102, 102, 102);
+}
+
+.section-title {
+  margin: 10px;
+}
+
+#rating-area {
+  margin: 5px;
+  padding: 5px;
+}
